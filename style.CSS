@@ -1,0 +1,96 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #efeaea;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.card{
+	width: 200px; 
+	overflow: hidden;
+	background-color: #b0f079;
+   
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgb(255, 5, 5);
+	text-align: center;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+	.card:first-of-type{
+		margin-right: 25px;
+	}
+ 
+	.card:hover{
+		margin-top: -10px;
+		box-shadow: 0 4px 8px rgb(5, 9, 232);
+	}
+.banner{
+	height: 100px;
+	width: 100%;
+	padding-top: 30px;
+	background-color: #0ff2f2;
+	background-size: cover;
+	background-position: center;
+}
+.card .banner{
+		background-image: url("https://cdn.vectorstock.com/i/1000x1000/50/45/business-concept-background-web-development-vector-38735045.webp");
+	}
+.avatar{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #c11ef3;
+	border-radius: 100%;
+}
+.card .avatar{
+		background-image: url("https://mechomotive.com/wp-content/uploads/2021/06/web2.jpg");
+	}
+ 
+h3, a, i{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+	h3{
+		margin-top: 45px;
+		margin-bottom: 5px;
+		font-size: 18px;
+		color: #df1313;
+	}
+	a {
+		display: block;
+		padding: 5px 0px;
+		font-size: 14px;
+		color: #3c3737;
+		text-decoration: none;
+	}
+		a:hover{
+			background-color: #FAFAFA;
+			color: inherit;
+		}
+ul {
+	margin-top: 10px;
+	padding: 15px 0px;
+	background-color: #FAFAFA;
+}
+	ul a{
+		display: inline;
+		margin-right: 10px;
+	}
+	ul a i:hover{
+		transform: scale(1.5);
+		color: #0cedf1;
+		}
